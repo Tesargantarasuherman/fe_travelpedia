@@ -1,0 +1,26 @@
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-left{
+    display: flex;
+    justify-content: flex-start;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+}
+.navbar-menu>li{
+    display: inline;
+    margin:0px 10px;
+}
+.button{
+    cursor: pointer;
+    outline: none;
+    padding:10px 20px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+.btn-create-account{
+    border: 2px solid #71D8BA;
+}
