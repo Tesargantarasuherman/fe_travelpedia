@@ -1,0 +1,76 @@
+.container-jumbotron{
+    background-image: url('https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    min-height: 600px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.body-jumbotron{
+    padding: 5% 25%;
+}
+.title-jumbotron{
+    font-size: 1.2em;
+    color: white;
+}
+.location-jumbotron{
+    font-size: 6em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+}
+.container-search{
+    background-color: white;
+    margin:0px 25%;
+    padding:20px;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.input-search{
+    flex:1;
+    margin:0px 20px;
+    padding:10px ;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+    background-size: 20px;
+    padding-left: 25px;
+    outline: none;
+    background-color: rgba(240, 240, 240, 1);
+    border: 2px solid rgba(240, 240, 240, 1);
+    border-radius: 5px;
+}
+.button-search{
+    padding:10px;
+    background-color: #FF783A;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: white;
+}
+.container-benefit{
+    background-color: #71D8BA;
+    min-height: 300px;
+    padding-top: 60px;
+    padding:5% 15%;
+}
+.title-benefit{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.description-benefit{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+}
+.body-benefit{
+    color: white;
+}
