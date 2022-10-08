@@ -2,38 +2,14 @@ import React from 'react'
 import './index.css'
 import Navigation from '../../assets/icon/navigation.svg'
 import MobileData from '../../assets/icon/mobiledata.svg'
-import Next from '../../assets/icon/next.svg'
 import Slider from 'react-slick'
-function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: "block", background: "red" }}
-      onClick={onClick}
-    />
-  );
-}
-
-function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: "block", background: "green" }}
-      onClick={onClick}
-    >
-      <img src={Navigation} alt="arrow_left"/>
-    </div>
-  );
-}
 function index() {
   const setting = {
     dots: false,
     infinite: false,
     speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToShow: 5,
+    slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
       {
@@ -61,15 +37,10 @@ function index() {
         }
       }
     ],
-    // nextArrow: 
-    // <div style={{backroundColor:'white',padding:20}}>
-    //   <img src={Next} alt="arrow_left"/> 
-    // </div>   ,
-    // prevArrow: <SamplePrevArrow />
   };
 
   return (
-    
+
     <>
       <div className='container-jumbotron'>
         <div className="body-jumbotron">
@@ -109,39 +80,112 @@ function index() {
         </div>
       </div>
       <div className="container-slider">
-      <Slider {...setting}>
-        <div>
-        <img src="http://placekitten.com/g/400/200" />
+        <Slider {...setting}>
+          <div className='body-slider'>
+            <img src="https://images.unsplash.com/photo-1505993597083-3bd19fb75e57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2075&q=80" className='img-content-slider' />
+            <div className='content-slider'>
+              <p className='title-content-slider'>Lorem, ipsum.</p>
+              <span className=" icon-content-slider lnr lnr-arrow-right"></span>
+            </div>
           </div>
-          <div>
-          <img src="http://placekitten.com/g/400/200" />
-
+          <div className='body-slider'>
+            <img src="https://images.unsplash.com/photo-1505993597083-3bd19fb75e57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2075&q=80" className='img-content-slider' />
+            <div className='content-slider'>
+              <p className='title-content-slider'>Luxury Holiday</p>
+              <span className=" icon-content-slider lnr lnr-arrow-right"></span>
+            </div>
           </div>
-          <div>
-          <img src="http://placekitten.com/g/400/200" />
-
+          <div className='body-slider'>
+            <img src="https://images.unsplash.com/photo-1505993597083-3bd19fb75e57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2075&q=80" className='img-content-slider' />
+            <div className='content-slider'>
+              <p className='title-content-slider'>Lorem, ipsum.</p>
+              <span className="icon-content-slider lnr lnr-arrow-right"></span>
+            </div>
           </div>
-          <div>
-          <img src="http://placekitten.com/g/400/200" />
-
+          <div className='body-slider'>
+            <img src="https://images.unsplash.com/photo-1505993597083-3bd19fb75e57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2075&q=80" className='img-content-slider' />
+            <div className='content-slider'>
+              <p className='title-content-slider'>Lorem, ipsum.</p>
+              <span className="icon-content-slider lnr lnr-arrow-right"></span>
+            </div>
           </div>
-          <div>
-          <img src="http://placekitten.com/g/400/200" />
-
+          <div className='body-slider'>
+            <img src="https://images.unsplash.com/photo-1505993597083-3bd19fb75e57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2075&q=80" className='img-content-slider' />
+            <div className='content-slider'>
+              <p className='title-content-slider'>Lorem, ipsum.</p>
+              <span className="icon-content-slider lnr lnr-arrow-right"></span>
+            </div>
           </div>
-          <div>
-          <img src="http://placekitten.com/g/400/200" />
-
+          <div className='body-slider'>
+            <img src="https://images.unsplash.com/photo-1505993597083-3bd19fb75e57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2075&q=80" className='img-content-slider' />
+            <div className='content-slider'>
+              <p className='title-content-slider'>Lorem, ipsum.</p>
+              <span className="icon-content-slider lnr lnr-arrow-right"></span>
+            </div>
           </div>
-          <div>
-          <img src="http://placekitten.com/g/400/200" />
-
+          <div className='body-slider'>
+            <img src="https://images.unsplash.com/photo-1505993597083-3bd19fb75e57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2075&q=80" className='img-content-slider' />
+            <div className='content-slider'>
+              <p className='title-content-slider'>Lorem, ipsum.</p>
+              <span className="icon-content-slider lnr lnr-arrow-right"></span>
+            </div>
           </div>
-          <div>
-          <img src="http://placekitten.com/g/400/200" />
-
+          <div className='body-slider'>
+            <img src="https://images.unsplash.com/photo-1505993597083-3bd19fb75e57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2075&q=80" className='img-content-slider' />
+            <div className='content-slider'>
+              <p className='title-content-slider'>Lorem, ipsum.</p>
+              <span className="icon-content-slider lnr lnr-arrow-right"></span>
+            </div>
+          </div>
+          <div className='body-slider'>
+            <img src="https://images.unsplash.com/photo-1505993597083-3bd19fb75e57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2075&q=80" className='img-content-slider' />
+            <div className='content-slider'>
+              <p className='title-content-slider'>Lorem, ipsum.</p>
+              <span className="icon-content-slider lnr lnr-arrow-right"></span>
+            </div>
           </div>
         </Slider>
+      </div>
+      <div className="container-top-destination">
+        <p className="title-top-destination">Lorem, ipsum dolor.</p>
+        <p className="description-top-destination">Lorem, ipsum.</p>
+        <div className="body-top-destination">
+          <div className="container-content-top-destination">
+            <img src="https://images.unsplash.com/photo-1536152470836-b943b246224c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=738&q=80" alt="" srcset="" className='img-content-top-destination' />
+            <div className="body-content-top-destination">
+              <p className="title-content-top-destination">Lorem, ipsum.</p>
+              <p className="description-content-top-destination">Lorem ipsum dolor sit.</p>
+            </div>
+          </div>
+          <div className="container-content-top-destination">
+            <img src="https://images.unsplash.com/photo-1536152470836-b943b246224c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=738&q=80" alt="" srcset="" className='img-content-top-destination' />
+            <div className="body-content-top-destination">
+              <p className="title-content-top-destination">Lorem, ipsum.</p>
+              <p className="description-content-top-destination">Lorem ipsum dolor sit.</p>
+            </div>
+          </div>
+          <div className="container-content-top-destination">
+            <img src="https://images.unsplash.com/photo-1536152470836-b943b246224c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=738&q=80" alt="" srcset="" className='img-content-top-destination' />
+            <div className="body-content-top-destination">
+              <p className="title-content-top-destination">Lorem, ipsum.</p>
+              <p className="description-content-top-destination">Lorem ipsum dolor sit.</p>
+            </div>
+          </div>
+          <div className="container-content-top-destination">
+            <img src="https://images.unsplash.com/photo-1536152470836-b943b246224c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=738&q=80" alt="" srcset="" className='img-content-top-destination' />
+            <div className="body-content-top-destination">
+              <p className="title-content-top-destination">Lorem, ipsum.</p>
+              <p className="description-content-top-destination">Lorem ipsum dolor sit.</p>
+            </div>
+          </div>
+          <div className="container-content-top-destination">
+            <img src="https://images.unsplash.com/photo-1536152470836-b943b246224c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=738&q=80" alt="" srcset="" className='img-content-top-destination' />
+            <div className="body-content-top-destination">
+              <p className="title-content-top-destination">Lorem, ipsum.</p>
+              <p className="description-content-top-destination">Lorem ipsum dolor sit.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   )

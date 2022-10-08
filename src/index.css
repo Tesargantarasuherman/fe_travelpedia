@@ -45,5 +45,8 @@ code {
 }
 .slick-arrow{
   z-index: 9999 !important;
-  opacity: 1 !important;
+  /* display: none !important; */
 }
+/* .slick-slider:hover>.slick-arrow{
+  display: block !important;
+} */
