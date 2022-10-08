@@ -55,8 +55,7 @@
     color: white;
 }
 .container-benefit{
-    background-color: #71D8BA;
-    min-height: 300px;
+    background-color: #006E5D;
     padding-top: 60px;
     padding:5% 15%;
 }
@@ -71,6 +70,25 @@
     font-weight: 600;
     color: white;
 }
+.content-benefit{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
 .body-benefit{
     color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.icon-benefit{
+    margin:0px auto;
+}
+.title-content-benefit{
+    margin: 10px 0px;
+    font-weight: 600;
+}
+.container-slider{
+    padding: 0px 10%;
+    background-color: white;
 }
