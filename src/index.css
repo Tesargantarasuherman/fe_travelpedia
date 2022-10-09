@@ -47,6 +47,18 @@ code {
   z-index: 9999 !important;
   /* display: none !important; */
 }
+.slick-dots{
+  position: absolute;
+  right: 0px !important;
+  bottom: 10px !important;
+  width: unset !important;
+}
+.slick-dots li button:before{
+  color: white !important;
+}
+.slick-dots li{
+  margin: unset !important;
+}
 /* .slick-slider:hover>.slick-arrow{
   display: block !important;
 } */

@@ -38,6 +38,43 @@ function index() {
       }
     ],
   };
+  const settings = {
+    dots: true,
+    arrows: false,
+    arrows: false,
+    infinite: true,
+    speed: 500,
+    autoplay: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ],
+  };
 
   return (
 
@@ -176,6 +213,29 @@ function index() {
           <div className="body-link-top-destination">
             <p className="link-top-destination">Lorem, ipsum dolor.</p>
             <span className="icon-content-slider lnr lnr-arrow-right"></span>
+          </div>
+        </div>
+      </div>
+      <div className="container-featured-tours">
+        <p className="title-top-destination">Lorem, ipsum dolor.</p>
+        <p className="description-top-destination">Lorem, ipsum.</p>
+        <div className="container-content-featured-tours">
+          <div className="container-card-tours">
+            <div className="body-card-tours">
+              <Slider {...settings}>
+                <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" srcset="" className='img-card-tour' />
+                <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" srcset="" className='img-card-tour' />
+                <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" srcset="" className='img-card-tour' />
+              </Slider>
+              <div className="content-top-card">
+                <button className='button-top-card'>lorem</button>
+                <span className="lnr lnr-heart" style={{ color: 'white', fontSize: 20, fontWeight: 'bold' }}></span>
+              </div>
+              <div className="content-bottom-card">
+                <span className="lnr lnr-map-marker text-content-bottom-card"></span>
+                <p>Bandung</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
