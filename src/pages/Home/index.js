@@ -171,19 +171,11 @@ function index() {
               <p className="description-content-top-destination">Lorem ipsum dolor sit.</p>
             </div>
           </div>
-          <div className="container-content-top-destination">
-            <img src="https://images.unsplash.com/photo-1536152470836-b943b246224c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=738&q=80" alt="" srcset="" className='img-content-top-destination' />
-            <div className="body-content-top-destination">
-              <p className="title-content-top-destination">Lorem, ipsum.</p>
-              <p className="description-content-top-destination">Lorem ipsum dolor sit.</p>
-            </div>
-          </div>
-          <div className="container-content-top-destination">
-            <img src="https://images.unsplash.com/photo-1536152470836-b943b246224c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=738&q=80" alt="" srcset="" className='img-content-top-destination' />
-            <div className="body-content-top-destination">
-              <p className="title-content-top-destination">Lorem, ipsum.</p>
-              <p className="description-content-top-destination">Lorem ipsum dolor sit.</p>
-            </div>
+        </div>
+        <div className="container-link-top-destination">
+          <div className="body-link-top-destination">
+            <p className="link-top-destination">Lorem, ipsum dolor.</p>
+            <span className="icon-content-slider lnr lnr-arrow-right"></span>
           </div>
         </div>
       </div>
