@@ -216,6 +216,9 @@
     color: white;
     background-color: #FF4248;
 }
+.container-content-featured-tours{
+    width: 300px;
+}
 .content-bottom-card{
     position: absolute;
     bottom:10px;
@@ -229,4 +232,29 @@
 }
 .text-content-bottom-card{
 
+}
+.review-content-card-tours{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-review-content-card-tours{
+    font-size: 12px;
+    font-weight: 600;
+    color:#FF4248;
+}
+.title-card-tours{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color:#292929;
+}
+.description-card-tours{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: .9rem;
+    margin: 5px 0px;
+}
+.description-card-tours>p:nth-child(2){
+    font-weight: 600;
 }

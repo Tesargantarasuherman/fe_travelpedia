@@ -3,6 +3,8 @@ import './index.css'
 import Navigation from '../../assets/icon/navigation.svg'
 import MobileData from '../../assets/icon/mobiledata.svg'
 import Slider from 'react-slick'
+import ReactStars from "react-rating-stars-component";
+
 function index() {
   const setting = {
     dots: false,
@@ -235,6 +237,33 @@ function index() {
                 <span className="lnr lnr-map-marker text-content-bottom-card"></span>
                 <p>Bandung</p>
               </div>
+            </div>
+            <div className="content-card-tours">
+              <div className="review-content-card-tours">
+                <ReactStars
+                  count={5}
+                  onChange={null}
+                  size={24}
+                  value={4}
+                  activeColor="#FF4248"
+                />
+                <p className='text-review-content-card-tours'>24 Reviews</p>
+              </div>
+            </div>
+            <p className="title-card-tours">
+              Lorem ipsum dolor sit amet consectetur.
+            </p>
+            <div className="description-card-tours">
+                <p>Lorem ipsum dolor sit.</p>
+                <p>Lorem, ipsum.</p>
+            </div>
+            <div className="description-card-tours">
+                <p>Lorem, ipsum.</p>
+                <p>Lorem, ipsum.</p>
+            </div>
+            <div className="description-card-tours">
+                <p>Lorem, ipsum.</p>
+                <p>Lorem, ipsum.</p>
             </div>
           </div>
         </div>
