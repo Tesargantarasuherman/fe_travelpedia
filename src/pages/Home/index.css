@@ -130,23 +130,31 @@
 .icon-content-slider{
     flex:1;
     text-align: end;
-    font-size: 18pt;
+    font-size: 1.2rem;
     font-weight: 600;
+    color: #006E5D;
 }
 .container-top-destination{
-    margin:0px 15%;
+    margin:5% 15%;
 }
 .body-top-destination{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 40px 0px;
 }
 .title-top-destination{
     text-align: center;
+    text-transform: uppercase;
+    color: #006E5D;
+    font-weight: 500;
+    font-size: 1.2rem;
 }
 .description-top-destination{
     text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
 }
 .img-content-top-destination{
     width: 300px;
@@ -179,23 +187,30 @@
 }
 .body-link-top-destination{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    width: 300px;
 
 }
 .link-top-destination{
     margin: 10px 0px;
+    font-size: 1.2rem;
     font-weight: 600;
     text-align: center;
     text-transform: uppercase;
+    color:#006E5D;
+}
+.container-card-tours{
+    width: 300px;
+    background-color: white;
+    border-radius:5px;
+    overflow: hidden;
 }
 .container-featured-tours{
     background-color: #fafafa;
     padding: 5% 15%;
 }
 .body-card-tours{
-    width: 300px;
+    width: 100%;
     position: relative;
 }
 .content-top-card{
@@ -217,7 +232,10 @@
     background-color: #FF4248;
 }
 .container-content-featured-tours{
-    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 44px;
+    margin:40px 0px;
 }
 .content-bottom-card{
     position: absolute;
@@ -233,6 +251,9 @@
 .text-content-bottom-card{
 
 }
+.content-card-tours{
+    padding: 5px;
+}
 .review-content-card-tours{
     display: flex;
     justify-content: space-between;
@@ -245,16 +266,34 @@
 }
 .title-card-tours{
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color:#292929;
 }
 .description-card-tours{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    font-size: .9rem;
+    font-size: 1.1rem;
     margin: 5px 0px;
 }
 .description-card-tours>p:nth-child(2){
     font-weight: 600;
+}
+.available-ticket-card-tours{
+    border-top: solid 2px rgba(240, 240, 240, 1);
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    padding: 20px 0px;
+    color:#006E5D;
+    font-size: 1.2rem;
+}
+.ticket-available-ticket-card-tours{
+    display: flex;
+    justify-content: flex-start;
+}
+.icon-available-ticket-card-tours{
+    width: 20px;
+    padding-right: 5px;
+    color: #006E5D;
 }
