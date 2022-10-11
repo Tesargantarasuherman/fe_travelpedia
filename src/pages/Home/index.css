@@ -117,7 +117,7 @@
     justify-content: space-between;
     align-items: center;
     color: white;
-    font-size: 18px;
+    font-size:1.8rem;
     font-weight: 600;
     /* margin-left:20px ; */
     /* padding:0px 10px; */
@@ -296,4 +296,35 @@
     width: 20px;
     padding-right: 5px;
     color: #006E5D;
+}
+.container-top-plan-trips{
+    background-color: white;
+    padding: 5% 15%;
+}
+.container-button-category-top-plan-trips{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+    gap:10px;
+}
+.button-category-top-plan-trips{
+    padding:5px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 0.7em;
+    color: #006E5D;
+    background-color: white;
+    border: solid 1px #006E5D ;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.container-content-top-plan-trips{
+    display: flex;
+    gap:40px;
+    margin:40px 0px;
 }

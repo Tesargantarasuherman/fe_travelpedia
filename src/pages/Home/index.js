@@ -4,13 +4,17 @@ import Navigation from '../../assets/icon/navigation.svg'
 import MobileData from '../../assets/icon/mobiledata.svg'
 import Slider from 'react-slick'
 import ReactStars from "react-rating-stars-component";
-import TicketIcon from "../../assets/icon/ticket.svg"
+import TicketIcon from "../../assets/icon/tickets.svg"
+import Mountain from '../../assets/icon/mountain.svg'
+import CardTop  from '../../components/CardTop'
+import Link from '../../components/Link'
+import Title from '../../components/Title'
 function index() {
   const setting = {
     dots: false,
     infinite: false,
     speed: 500,
-    autoplay:true,
+    autoplay: true,
     slidesToShow: 5,
     slidesToScroll: 1,
     initialSlide: 0,
@@ -537,6 +541,31 @@ function index() {
             </div>
           </div>
         </div>
+        <Link />
+      </div>
+      <div className="container-top-plan-trips">
+        <Title />
+        <div className="container-button-category-top-plan-trips">
+          <button className="button-category-top-plan-trips">
+            <img src={Mountain} alt="" srcset="" width={20} />
+            <p className='text-category-top-plan-trips'>Mountain</p>
+          </button>
+          <button className="button-category-top-plan-trips">
+            <img src={Mountain} alt="" srcset="" width={20} />
+            <p className='text-category-top-plan-trips'>Mountain</p>
+          </button>
+          <button className="button-category-top-plan-trips">
+            <img src={Mountain} alt="" srcset="" width={20} />
+            <p className='text-category-top-plan-trips'>Mountain</p>
+          </button>
+        </div>
+        <div className="container-content-top-plan-trips">
+          <CardTop />
+          <CardTop />
+          <CardTop />
+          <CardTop />
+        </div>
+        <Link />
       </div>
     </>
   )
